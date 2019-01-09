@@ -1,0 +1,169 @@
+@media only screen and (min-width: 1921px){
+
+
+
+
+    main{
+        padding-top: 10.42vw;
+    }
+
+    main, footer{
+
+       border-left: 0.21vw solid #3697eb;
+    }
+
+
+
+
+    h1{
+
+        font-size: 5.31vw;
+    }
+
+
+    main ul{
+        padding-top: 4.69vw;
+        padding-bottom: 7.81vw;
+    }
+
+
+    main ul li{
+        font-size: 0.83vw;
+    }
+
+
+
+    .questions{
+
+        font-size: 1.25vw;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1180px){
+
+    h1{
+        font-size: 70px;
+    }
+
+    p.questions{
+
+        font-size: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 970px){
+
+    main{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 140px;
+    }
+
+
+    main ul{
+
+        padding-top: 70px;
+    }
+
+
+    main ul li p.questions, main ul li p.answers{
+
+        font-size: 16px;
+    }
+
+    main p.answers br{
+
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 760px){
+
+    h1{
+        font-size: 50px;
+    }
+
+    main p{
+
+        text-align: justify;
+    }
+
+    main ul li{
+        position: relative;
+        margin-left: 1em;
+    }
+
+    main ul li::before{
+
+        content: '';
+        background-color: #3697eb;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        position: absolute;
+        top: 6px;
+        left: -20px;
+
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 510px){
+
+    main{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 440px){
+
+
+    h1{
+        font-size: 35px;
+    }
+
+    main{
+        padding-top: 100px;
+    }
+
+
+    main ul{
+
+        padding-top: 40px;
+    }
+
+
+    main ul li::before{
+
+        display: none;
+    }
+
+    main ul li{
+        margin-left: 0;
+    }
+
+    main ul li p.questions, main ul li p.answers{
+
+        font-size: 14px;
+    }
+
+
+}

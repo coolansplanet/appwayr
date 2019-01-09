@@ -1,0 +1,635 @@
+@media only screen and (min-width: 1921px){
+
+    header{
+        max-width: 73.92vw;
+    }
+
+
+    header img.logo{
+
+        width: 10.42vw;
+        top: 1.67vw;
+        left: 1.04vw;
+    }
+
+
+    header nav{
+
+        padding-top: 2.5vw;
+    }
+
+
+    header nav ul li a{
+
+        font-size: 0.94vw;
+    }
+
+    header nav ul li a::after{
+
+        height: 0.1vw;
+    }
+
+
+
+
+
+    header .social-networks{
+
+        right: 1.04vw;
+        top: 1.98vw;
+        padding-top: 0.42vw;
+        padding-bottom: 0.1vw;
+        padding-right: 0.42vw;
+        padding-left: 0.16vw;
+        border-top-right-radius: 0.42vw;
+        border-bottom-left-radius: 0.42vw;
+        border: 0.05vw solid rgba(54, 151, 235, 0.5);
+    }
+
+
+
+
+    header .social-networks::before{
+
+        width: 0.05vw;
+        height: 1.98vw;
+        top: -1.98vw;
+    }
+
+
+
+    header .social-networks::after{
+
+        width: 0.05vw;
+        height: 1.98vw;
+        top: -1.98vw;
+    }
+
+
+
+    header .social-networks li{
+
+        margin-left: 0.26vw;
+    }
+
+
+    header .social-networks li:first-of-type{
+
+        margin-left: 0.36vw;
+    }
+
+
+
+
+
+
+    header .social-networks li a img{
+
+        height: 0.94vw;
+    }
+
+
+
+    footer{
+        padding-top: 1.04vw;
+    }
+
+
+    footer::before{
+        width: 26.04vw;
+        height: 0.05vw;
+        margin-left: -13.02vw;
+    }
+
+
+
+    footer form{
+        width: 35.68vw;
+        padding-bottom: 3.49vw;
+    }
+
+
+    footer form h2{
+        font-size: 1.25vw;
+        line-height: 3.75vw;
+
+    }
+
+
+    footer form input{
+
+        width: 16.67vw;
+        height: 1.56vw;
+        border: 0.05vw solid #999999;
+        margin-top: 0.83vw;
+        line-height: 1.56vw;
+        font-size: 0.83vw;
+    }
+
+
+    footer form textarea{
+
+        width: 16.67vw;
+        height: 8.75vw;
+        border: 0.05vw solid #999999;
+
+        margin-top: 0.83vw;
+        top: 3.75vw;
+
+        line-height: 1.56vw;
+        font-size: 0.83vw;
+    }
+
+
+    footer form input:focus, footer form textarea:focus{
+
+        box-shadow: 0 0 0.21vw #3697eb;
+    }
+
+
+
+
+    footer form input[type=submit]{
+
+        width: 4.17vw;
+        line-height: 1.56vw;
+        margin-top: 1.67vw;
+    }
+
+
+
+    footer form input[type=submit]:hover{
+
+        text-shadow: 0 0 0.1vw white;
+        box-shadow: 0 0 0.21vw #3697eb;
+
+    }
+
+
+
+
+    footer form h2.confirmation{
+
+        border: 0.05vw solid #444444;
+    }
+
+
+
+
+
+    footer .right-side{
+
+        padding-top: 4.58vw;
+        margin-left: 2.08vw;
+    }
+
+
+    footer .right-side p{
+
+        font-size: 1.04vw;
+    }
+
+
+
+
+    footer .bottom-bar{
+
+        min-height: 3.28vw;
+    }
+
+
+
+
+    footer div.bottom-bar::before{
+
+        width: 0.16vw;
+    }
+
+
+
+    footer .bottom-bar p{
+
+        line-height: 3.28vw;
+        font-size: 0.73vw;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1470px){
+
+    header img.logo{
+
+        left: 40px;
+        width: 150px;
+    }
+
+    header .social-networks{
+
+        right: 40px;
+    }
+
+
+    header nav{
+
+        padding-top: 45px;
+    }
+
+
+    header nav ul li a{
+
+        font-size: 16px;
+    }
+
+
+    footer form{
+
+        width: 574px;
+        padding-bottom: 32px;
+    }
+
+
+    footer form input{
+
+        height: 30px;
+        margin-top: 7px;
+        width: 280px;
+    }
+
+
+    footer form textarea{
+        margin-top: 7px;
+        height: 141px;
+        width: 280px;
+    }
+
+
+    footer div.right-side{
+
+        padding-top: 78px;
+        margin-left: 20px;
+    }
+
+
+    footer div.right-side p{
+
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 970px){
+
+    header img.logo{
+
+        top: 10px;
+        left: 20px;
+        width: 140px;
+    }
+
+
+    header nav{
+
+        padding-top: 22px;
+    }
+
+
+    header nav ul li+li{
+        padding-left: 0.5ex;
+    }
+
+
+
+    header nav ul li a{
+
+        font-size: 15px;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+
+    header .social-networks{
+
+        right: 20px;
+        top: 13px;
+    }
+
+
+
+
+
+
+    footer form h2{
+
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+
+
+    footer form h2 .medium{
+
+        font-weight: 300;
+    }
+
+
+    footer form textarea{
+
+        margin-top: 27px;
+    }
+
+    footer form input[type=submit]{
+
+        width: 160px;
+        left: 50%;
+        float: none;
+        line-height: 2.5em;
+        height: 2.5em;
+        position: relative;
+        transform: translateX(-50%);
+    }
+
+
+    footer div.right-side{
+
+        padding-top: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    footer div.right-side p{
+
+        display: inline-block;
+    }
+
+    footer div.right-side p+p::before{
+
+        content: ' | ';
+        color: #999999;
+    }
+
+    footer div.right-side p.links{
+        position: relative;
+        top: 3px;
+    }
+
+
+    footer div.right-side p.links a:first-of-type{
+
+        margin-left: 1ex;
+    }
+
+    footer div.right-side p.links a img{
+
+        height: 17px;
+    }
+
+
+    footer form h2.confirmation{
+
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.5em;
+        margin-top: 4.1em;
+        padding-top: 4em;
+        padding-bottom: 4em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        vertical-align: text-bottom;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 719px){
+
+    header .social-networks{
+
+        display: none;
+    }
+
+    header nav{
+
+        text-align: right;
+        padding-right: 20px;
+    }
+
+
+
+    footer form{
+
+        width: 100%;
+        text-align: center;
+        max-width: 500px;
+    }
+
+
+    footer form input{
+
+        margin-top: 16px;
+    }
+
+    footer form textarea{
+
+        position: relative;
+        top: 0;
+        margin-top: 16px;
+    }
+
+    footer form input[type=submit]{
+
+        width: 280px;
+        margin-left: 100px;
+        margin-right: 100px;
+        left: 0;
+        transform: translateX(0);
+    }
+
+
+    footer div.right-side{
+
+        padding-bottom: 2em;
+    }
+
+
+
+    footer div.right-side p{
+
+        width: 100%;
+    }
+
+    footer div.right-side p+p::before{
+
+        content: '';
+    }
+
+
+    footer div.bottom-bar p{
+
+        text-align: center;
+        padding-left: 1.5em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        line-height: 1.8em;
+    }
+
+
+    footer form h2.confirmation{
+
+        width: auto;
+        left: 40px;
+        right: 40px;
+        bottom: 30px;
+        top: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 580px){
+
+
+    header{
+
+        position: relative;
+        left: 0;
+        transform: translateX(0);
+        display: block;
+        border-left: 4px solid #3697eb;
+    }
+
+    header img.logo{
+
+        width: 150px;
+        top: 7px;
+        left: 10px;
+    }
+
+    header nav{
+
+        width: 100%;
+        padding: 0;
+    }
+
+
+
+    header nav::before{
+
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        color: #3697eb;
+        cursor: pointer;
+        background-image: url('../images/bars.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25px;
+    }
+
+
+    header nav ul{
+
+        width: 100%;
+        margin: 0;
+        margin-top: 60px;
+        border-top: 1px solid #cccccc;
+        background-color: #f9f9f9;
+        display: none;
+    }
+
+    header nav.show-menu ul{
+
+        display: inline-block;
+    }
+
+     header nav.show-menu ul{
+
+        display: inline-block;
+    }
+
+
+
+    header nav ul li{
+
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        border-bottom: 1px solid #cccccc;
+    }
+
+
+    header nav ul li a{
+
+        width: 100%;
+        font-size: 18px;
+    }
+
+    header nav ul li a::after{
+
+        display: none;
+    }
+
+
+    header nav ul li a:active{
+
+        background-color: #3697eb;
+        color: white;
+    }
+
+
+    footer::before{
+
+        display: none;
+    }
+
+
+    footer form input[type=submit]{
+
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    footer form h2.confirmation{
+
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    footer form h2.confirmation br{
+
+        display: none;
+    }
+
+}

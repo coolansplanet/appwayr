@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg5130"
+   version="1.1"
+   viewBox="0 0 26.722916 26.722917"
+   height="101"
+   width="101">
+  <defs
+     id="defs5124" />
+  <metadata
+     id="metadata5127">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-270.27708)"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-31.617707,238.71229)"
+       style="fill:#3697eb"
+       id="Marketing">
+      <rect
+         style="fill:#3697eb"
+         id="rect26"
+         height="95"
+         width="10.3"
+         class="st0"
+         y="122.3"
+         x="164.8" />
+      <rect
+         style="fill:#3697eb"
+         id="rect28"
+         height="74.5"
+         width="10.3"
+         class="st0"
+         y="142.8"
+         x="183.7" />
+      <rect
+         style="fill:#3697eb"
+         id="rect30"
+         height="55.599998"
+         width="10.3"
+         class="st0"
+         y="161.60001"
+         x="146" />
+    </g>
+  </g>
+</svg>

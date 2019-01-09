@@ -1,0 +1,258 @@
+@media only screen and (min-width: 1921px){
+
+    form .container{
+
+        width: 52.6vw
+    }
+
+
+    form input{
+
+        width: 24.79vw;
+        border: 0.05vw solid #333333;
+        box-shadow: 0 0 0.26vw black;
+    }
+
+
+    form textarea{
+
+        width: 24.79vw;
+        border: 0.05vw solid #333333;
+        box-shadow: 0 0 0.26vw black;
+    }
+
+
+    form input:focus, form textarea:focus{
+        box-shadow: 0 0 1.04vw #3697eb;
+    }
+
+
+
+
+    form input[type=submit]{
+
+        width: 6.25vw;
+        margin-top: 0.36vw;
+    }
+
+
+
+    form input[type=submit]:hover{
+
+        text-shadow: 0 0 0.21vw white;
+        box-shadow: 0 0 1.04vw #3697eb;
+
+    }
+
+
+
+    form h2.confirmation{
+
+        border: 0.05vw solid #3697eb;
+        width: 52.6vw;
+    }
+
+
+
+
+    footer p.address a.email{
+
+        border-bottom: 0.05vw solid rgba(54,151,235, 0);
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1280px){
+
+    form .container{
+
+        width: 840px;
+    }
+
+
+
+    form input, form textarea{
+
+        width: 400px
+    }
+
+
+
+    form h2.confirmation {
+
+        width: 80%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 970px){
+
+
+
+
+    form{
+        position: relative;
+        top: 0;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        transform: translateY(0);
+    }
+
+
+    form h1 {
+        font-size: 75px;
+    }
+
+
+    form h2{
+
+        font-size: 18px;
+    }
+
+    form .container{
+
+        width: auto;
+        margin-bottom: 80px;
+    }
+
+
+    form .container input{
+
+        height: 44px;
+        margin-bottom: 25px;
+        line-height: 44px;
+        font-size: 18px;
+    }
+
+
+    form .container textarea{
+
+        position: relative;
+        height: 252px;
+        line-height: 44px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    form .container input[type=submit]{
+
+        line-height: 44px;
+        position: absolute;
+        right: 0;
+        margin-top: 0;
+    }
+
+
+
+    form h2.confirmation{
+
+        top: 50%;
+        width: 450px;
+    }
+
+
+    footer{
+
+        position: relative;
+    }
+
+
+    footer p.address, footer p.address a {
+    color: #3697eb;
+    font-size: 16px;
+}
+
+
+
+
+
+@media only screen and (max-width: 719px){
+
+    form h2{
+
+        font-size: 16px;
+    }
+
+
+    footer p.address, footer p.address a {
+
+        line-height: 1.8em;
+    }
+
+
+    footer .address span.light {
+
+        display: none;
+    }
+
+    footer p.address br.new-line{
+
+        display: inline-block;
+    }
+
+
+    footer a.icons{
+
+        margin-top: 4px;
+        display: inline-block;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 580px){
+
+    header {
+        border-left: none;
+    }
+
+    form h1{
+
+        font-size: 50px;
+    }
+
+
+    form{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    form h2{
+
+        font-size: 14px;
+    }
+
+    form h2 br{
+
+        display: none;
+    }
+
+    form .container{
+
+        width: 100%;
+    }
+
+    form .container input, form .container textarea{
+
+        width: 100%;
+    }
+
+    form h2.confirmation{
+
+        left: 30px;
+        right: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        transform: translateX(0);
+        width: auto;
+    }
+}

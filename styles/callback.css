@@ -1,0 +1,232 @@
+form{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 46vh;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+h1{
+    font-size: 10.2vh;
+    font-weight: 300;
+    color: #3697eb;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+
+h2{
+    color: #323232;
+    text-align: center;
+    font-size: 2.02vh;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 2.5em;
+}
+
+
+form .container{
+
+    display: inline-block;
+    width: 1010px;
+    position: relative;
+    text-align: left;
+
+    transition: opacity 300ms;
+}
+
+
+form input{
+
+    width: 476px;
+    height: 4.45vh;
+    border: 1px solid #333333;
+    margin-bottom: 2.55vh;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    line-height: 4.45vh;
+    font-size: 1.82vh;
+
+    transition: box-shadow 200ms, text-shadow 200ms, border-color 200ms;
+
+    background-color: #333333;
+    color: white;
+
+    box-shadow: 0 0 5px black;
+}
+
+
+form textarea{
+
+    width: 476px;
+    height: 25.45vh;
+    border: 1px solid #333333;
+
+    resize: none;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    line-height: 4.45vh;
+    font-size: 1.82vh;
+
+    transition: box-shadow 200ms, border-color 200ms;
+
+    background-color: #333333;
+    color: white;
+    box-shadow: 0 0 5px black;
+}
+
+
+form input:focus, form textarea:focus{
+    outline: none;
+    box-shadow: 0 0 20px #3697eb;
+    border-color: #3697eb;
+}
+
+
+
+
+form input[type=submit]{
+
+    border: none;
+    width: 120px;
+    color: white;
+    background-color: #3697eb;
+    text-align: center;
+    line-height: 4.45vh;
+    padding: 0;
+    margin-top: 7px;
+    float: right;
+    font-weight: 500;
+    cursor: pointer;
+
+    box-shadow: none;
+}
+
+
+
+form input[type=submit]:hover{
+
+    text-shadow: 0 0 4px white;
+    box-shadow: 0 0 20px #3697eb;
+
+}
+
+form input[type=submit]:active{
+
+    text-shadow: none;
+    box-shadow: none;
+}
+
+
+
+
+form.sent .container{
+
+    opacity: 0;
+}
+
+
+
+form h2.confirmation{
+
+    position: absolute;
+    top: 32vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    z-index: -50;
+    transition: opacity 300ms ease 500ms;
+    user-select: none;
+    line-height: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border: 1px solid #3697eb;
+    color: #3697eb;
+    width: 1010px;
+}
+
+
+form.sent h2.confirmation{
+
+    opacity: 1;
+    z-index: 5000;
+    user-select: text;
+}
+
+
+
+
+footer{
+
+    position: absolute;
+    bottom: 0;
+    border-top: 0;
+    padding: 0;
+}
+
+
+footer::before{
+    display: none;
+}
+
+
+footer p.address, footer p.address a{
+    color: #3697eb;
+    font-size: 2.02vh;
+    font-weight: 500;
+    line-height: 2.5em;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+}
+
+
+footer p.address a.email{
+    border-bottom: 1px solid rgba(54,151,235, 0);
+    transition: border-color 300ms;
+}
+
+
+footer p.address a.email:hover{
+    border-color: rgba(54,151,235, 1);
+}
+
+
+
+footer p.address a.icons{
+    margin-left: 0.5ex;
+}
+
+
+
+
+footer p.address a.icons img{
+    filter: brightness(0);
+    opacity: 0.75;
+    height: 1em;
+    width: auto;
+    transition: transform 400ms;
+}
+
+footer p.address a.icons:hover img{
+
+    transform: rotateZ(360deg);
+}
+
+
+footer p.address br.new-line{
+
+    display: none;
+}

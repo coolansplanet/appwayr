@@ -1,0 +1,496 @@
+/*--------------------------| General |---------------------------*/
+
+section{
+
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+
+
+/*------------------------| Main section |--------------------------*/
+
+section#main{
+    background-image: url('../images/salon/salon.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+section#main .container{
+
+    position: static;
+}
+
+
+section#main h1{
+    font-weight: 600;
+    font-size: 6.46vh;
+    color: #333333;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.5em;
+    margin-top: 35.35vh;
+    text-shadow: 0 0 2px black;
+}
+
+
+section#main h2{
+
+    font-size: 5.05vh;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #333333;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+section#main h2 .highlighted{
+
+    color: #3697eb;
+}
+
+
+section#main p{
+
+    font-size: 2.83vh;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #777777;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+
+section#main p .highlighted{
+
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+
+
+
+/*------------------------| "Features of the app" section |--------------------------*/
+
+
+section#features-of-the-app{
+
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 2.02vh black;
+    margin-top: 100vh;
+}
+
+
+
+section#features-of-the-app h2{
+
+    color: #3697eb;
+    font-weight: 300;
+    font-size: 6.06vh;
+    display: inline-block;
+    line-height: 11.92vh;
+    padding-right: 0.4em;
+    height: 11.92vh;
+    border-right: 1px solid #cccccc;
+    margin-top: 1em;
+}
+
+
+section#features-of-the-app h2 .highlighted{
+
+    font-weight: 600;
+}
+
+
+
+section#features-of-the-app h3{
+
+    font-weight: 300;
+    font-size: 2.53vh;
+    display: inline-block;
+    line-height: 1.5em;
+    text-align: left;
+    height: 11.92vh;
+    padding-left: 1.1em;
+    position: relative;
+    top: 1.21vh;
+}
+
+section#features-of-the-app ul{
+    display: inline-block;
+    width: 1280px;
+    position: absolute;
+    top: 53vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+section#features-of-the-app ul li{
+
+    width: 388px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4.5vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+
+
+section#features-of-the-app ul li h4{
+
+    font-size: 3.03vh;
+    font-weight: 300;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+}
+
+
+
+section#features-of-the-app ul li h4::after{
+
+    content: '';
+    width: 20.51vh;
+    height: 1px;
+    background-color: #3697eb;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+section#features-of-the-app ul li p{
+
+    font-size: 16px;
+    display: inline-block;
+    line-height: 1.5em;
+    padding-top: 2em;
+}
+
+
+
+
+/*------------------------| "What makes your salon special" section |--------------------------*/
+
+
+section#what-makes-your-salon-special{
+
+    background-image: url('../images/salon/what-makes-your-salon-special.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+section#what-makes-your-salon-special::before{
+
+    content: '';
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+section#what-makes-your-salon-special .container{
+
+    position: static;
+}
+
+
+
+section#what-makes-your-salon-special h2{
+
+    font-size: 6.06vh;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+section#what-makes-your-salon-special h2 .highlighted{
+
+    color: #3697eb;
+    font-weight: 600;
+}
+
+section#what-makes-your-salon-special ul.short-explanation{
+
+    font-size: 2.73vh;
+    font-weight: 300;
+    color: white;
+    line-height: 1.75em;
+    text-align: center;
+    margin-top: 1em;
+    position: relative;
+    z-index: 2;
+    user-select: text;
+}
+
+
+section#what-makes-your-salon-special ul.numbers{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+
+section#what-makes-your-salon-special ul.numbers li{
+
+    width: 35.35vh;
+    vertical-align: top;
+    display: inline-block;
+}
+
+section#what-makes-your-salon-special ul.numbers li+li{
+
+    margin-left: 5.66vh;
+}
+
+
+section#what-makes-your-salon-special ul.numbers li h3{
+
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+    font-size: 3.53vh;
+    font-weight: 600;
+    color: #3697eb;
+    line-height: 1.25em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+
+
+section#what-makes-your-salon-special ul.numbers li h3 .highlighted{
+
+    font-size: 9.09vh;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 1.25em;
+}
+
+
+
+section#what-makes-your-salon-special ul.numbers li p{
+
+    background-color: white;
+    color: #1a1a1a;
+    width: 100%;
+    min-height: 42.93vh;
+    padding-top: 5.66vh;
+    padding-bottom: 5.66vh;
+    padding-left: 2.83vh;
+    padding-right: 2.83vh;
+    line-height: 1.5em;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2.02vh;
+}
+
+
+
+
+
+/*------------------------| "Personalized Marketing Tools" section |--------------------------*/
+
+
+section#personalized-marketing-tools{
+
+    background-color: white;
+}
+
+
+section#personalized-marketing-tools h2{
+
+    font-size: 5.86vh;
+    font-weight: 300;
+    width: 100%;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    color: #1a1a1a;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+
+section#personalized-marketing-tools h2 .highlighted{
+
+    color: #3697eb;
+    font-weight: 500;
+}
+
+
+section#personalized-marketing-tools .wrapper{
+
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+section#personalized-marketing-tools .wrapper::after{
+    width: 78vh;
+    height: 61vh;
+    position: absolute;
+    top: 1vh;
+    left: 0;
+    content: '';
+    border-radius: 4.5vh;
+    box-shadow: 0 0.5vh 8vh rgba(0, 0, 0, 0.8);
+    background-color: #1a1a1a;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+section#personalized-marketing-tools img{
+
+    width: 80vh;
+    height: auto;
+    position: relative;
+    z-index: 4;
+    display: inline-block;
+}
+
+section#personalized-marketing-tools p{
+
+    width: 100%;
+    line-height: 1.5em;
+    margin-top: 1.4em;
+    width: 100%;
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 3.74vh;
+    font-weight: 500;
+    display: inline-block;
+}
+
+
+section#personalized-marketing-tools p .highlighted{
+
+    font-weight: 700;
+}
+
+
+
+/*------------------------| Last section before the footer |--------------------------*/
+
+
+section#benefits{
+
+    background-color: #1a1a1a;
+}
+
+section#benefits ul{
+    display: inline-block;
+    width: 100%;
+    max-width: 1400px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+section#benefits ul li{
+
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    min-height: 200px;
+    vertical-align: top;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+section#benefits ul li h3{
+
+    display: inline-block;
+    width: 100%;
+    font-weight: 300;
+    font-size: 29px;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    line-height: 1.5em;
+}
+
+
+section#benefits ul li h3::after{
+
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 1px;
+    background-color: #3697eb;
+    content: '';
+    margin-left: -100px;
+    bottom: 0;
+    left: 50%;
+}
+
+
+section#benefits ul li p{
+
+    display: inline-block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+
+
+
+/*----------------------------| Footer overwrite |---------------------------------*/
+
+
+footer::before{
+    display: none;
+}
+
+footer .bottom-bar{
+    background-color: #1a1a1a;
+}

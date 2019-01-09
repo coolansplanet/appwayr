@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+*::selection{
+    background-color: #3697eb;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+img{
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+img.loaded{
+
+    opacity: 1;
+}
+
+
+
+html, body{
+
+    line-height: 1.5em;
+    background-color: #f9f9f9;
+    font-family: Raleway, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    color: #333333;
+    user-select: none;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    user-select: text;
+}
+
+
+
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+
+header{
+    width: 100%;
+    max-width: 1400px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+header img.logo{
+
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 32px;
+    left: 20px;
+}
+
+
+header nav{
+
+    padding-top: 48px;
+    text-align: center;
+}
+
+header nav ul{
+    display: inline-block;
+    cursor: pointer;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+
+
+header nav ul li+li{
+    padding-left: 3ex;
+}
+
+
+
+header nav ul li a{
+    display: inline-block;
+    color: #333333;
+    line-height: 1.9em;
+    font-weight: 400;
+    padding-left: 1.7ex;
+    padding-right: 1.7ex;
+    font-size: 18px;
+
+    position: relative;
+}
+
+header nav ul li a::after{
+
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background-color: #aaaaaa;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: width 200ms;
+}
+
+
+header nav ul li:hover a::after{
+
+    width: 100%;
+}
+
+header nav ul li a.current::after{
+
+    background-color: #3697eb;
+    width: 100%;
+}
+
+
+header .social-networks{
+
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 38px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    padding-left: 3px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid rgba(54, 151, 235, 0.4);
+}
+
+
+
+
+header .social-networks::before{
+
+    width: 1px;
+    height: 38px;
+    top: -38px;
+    left: 25%;
+    background-color: rgba(54, 151, 235, 0.4);
+    content: '';
+    display: inline-block;
+    position: absolute;
+}
+
+
+
+header .social-networks::after{
+
+    width: 1px;
+    height: 38px;
+    top: -38px;
+    left: 75%;
+    background-color: rgba(54, 151, 235, 0.4);
+    content: '';
+    display: inline-block;
+    position: absolute;
+}
+
+
+
+header .social-networks li{
+
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+}
+
+
+header .social-networks li:first-of-type{
+
+    margin-left: 7px;
+}
+
+
+
+
+
+
+header .social-networks li a{
+
+    display: inline-block;
+    position: relative;
+    padding: 0;
+}
+
+
+header .social-networks li a:hover img{
+
+    transform: rotateZ(360deg);
+    filter: brightness(0);
+    opacity: 0.7;
+}
+
+header .social-networks li a img{
+
+    height: 18px;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: transform 400ms, filter 400ms, opacity 400ms;
+}
+
+
+section#main{
+
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: inherit;
+}
+
+
+
+.light{
+    font-weight: 300;
+}
+
+
+.medium{
+    font-weight: 500;
+}
+
+
+.semi-bold{
+    font-weight: 600;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+footer{
+    background-color: inherit;
+    z-index: 5;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+footer::before{
+    background-color: #999999;
+    display: inline-block;
+    width: 500px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -250px;
+    content: '';
+}
+
+
+
+footer form{
+    position: relative;
+    display: inline-block;
+    width: 685px;
+    text-align: left;
+    padding-bottom: 67px;
+}
+
+
+footer form h2{
+    color: #3697eb;
+    font-size: 24px;
+    line-height: 72px;
+
+    transition: opacity 300ms;
+
+}
+
+
+footer form input{
+
+    width: 320px;
+    height: 30px;
+    border: 1px solid #999999;
+    margin-top: 16px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    line-height: 30px;
+    font-size: 16px;
+
+    transition: box-shadow 100ms, text-shadow 100ms, border-color 100ms, opacity 300ms;
+
+    background-color: inherit;
+}
+
+
+footer form textarea{
+
+    width: 320px;
+    height: 168px;
+    border: 1px solid #999999;
+
+    margin-top: 16px;
+    resize: none;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    position: absolute;
+    right: 0;
+    top: 72px;
+
+    line-height: 30px;
+    font-size: 16px;
+
+    transition: box-shadow 100ms, border-color 100ms, opacity 300ms;
+
+    background-color: inherit;
+}
+
+
+footer form input:focus, footer form textarea:focus{
+    outline: none;
+    box-shadow: 0 0 4px #3697eb;
+    border-color: #3697eb;
+}
+
+
+
+
+footer form input[type=submit]{
+
+    border: none;
+    width: 80px;
+    color: white;
+    background-color: #3697eb;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+    margin-top: 32px;
+    float: right;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+footer form input[type=submit]:hover{
+
+    text-shadow: 0 0 2px white;
+    box-shadow: 0 0 4px #3697eb;
+
+}
+
+footer form input[type=submit]:active{
+
+    text-shadow: none;
+    box-shadow: none;
+}
+
+
+footer form h2.confirmation{
+
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 4.1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: text-bottom;
+    z-index: -50;
+    user-select: none;
+    border: 1px solid #444444;
+    color: #444444;
+
+    opacity: 0;
+    transition: opacity 500ms ease 300ms;
+}
+
+
+footer form.sent input, footer form.sent textarea, footer form.sent h2{
+
+    opacity: 0;
+}
+
+
+footer form.sent h2.confirmation{
+
+    opacity: 1;
+    z-index: 5000;
+    user-select: text;
+}
+
+
+
+footer .right-side{
+
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 88px;
+    margin-left: 40px;
+    color: #333333;
+}
+
+
+footer .right-side p{
+
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer .right-side p > a{
+
+    color: #333333;
+    transition: color 200ms;
+}
+
+footer .right-side p > a:hover{
+
+    color: #3697eb;
+}
+
+
+footer .right-side .links{
+
+    padding-top: 1em;
+    padding-bottom: 1.1em;
+    user-select: none;
+}
+
+footer .right-side .links a{
+
+    margin-right: 1ex;
+    display: inline-block;
+}
+
+footer .right-side .links a img{
+
+    transition: transform 400ms;
+}
+
+
+footer .right-side .links a:hover img{
+
+    transform: rotateZ(360deg);
+}
+
+
+
+footer .bottom-bar{
+
+    width: 100%;
+    min-height: 63px;
+    background-color: #333333;
+    position: relative;
+}
+
+footer div.bottom-bar::before{
+
+    background-color: red;
+    positon: absolute;
+    height: 100%;
+    width: 3px;
+    background-color: #333333;
+    top: 0;
+    left: 0;
+}
+
+
+
+footer .bottom-bar p{
+
+    color: white;
+    line-height: 63px;
+    text-align: right;
+    padding-right: 1.5em;
+    font-size: 14px;
+}

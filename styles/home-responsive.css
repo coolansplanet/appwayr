@@ -1,0 +1,974 @@
+@media only screen and (min-width: 1921px){
+
+    /*-----------------------| general |------------------------*/
+
+    h2.number{
+
+        font-size: 4.69vw;
+        line-height: 5.99vw;
+        height: 7.08vw;
+        width: 7.08vw;
+        margin-left: -3.54vw;
+
+        border-radius: 3.54vw;
+        border: 0.26vw solid #f9f9f9;
+    }
+
+    h2.number::after{
+
+        width: 7.19vw;
+        height: 7.19vw;
+        border-radius: 3.59vw;
+        border: 0.05vw solid #3697eb;
+        top: -0.31vw;
+        left: -0.31vw;
+    }
+
+
+
+
+
+
+
+    section#performance-metrics .right-side::before,
+    section#unlimited-loyalty-channels .right-side::before,
+    section#social-media .right-side::before{
+
+
+        width: 0.05vw;
+    }
+
+
+
+
+    section.slides .right-side .container{
+
+        left: 7.81vw;
+    }
+
+
+
+
+    section.slides .right-side .container h3{
+
+        font-size: 2.08vw;
+    }
+
+
+    section.slides .right-side .container p{
+
+        font-size: 1.25vw;
+    }
+
+
+
+
+    /*-----------------------| Section "Main" |------------------------*/
+
+    section#main{
+        box-shadow: 0 0 1.04vw black;
+    }
+
+
+
+    section#main .container .right-side{
+
+        border-left: 0.05vw solid #cccccc;
+    }
+
+
+
+
+
+
+
+    /*-----------------------| Section "Boost your branding" |------------------------*/
+
+
+
+
+
+
+    section#boost-your-branding h2{
+
+        border-bottom: 0.05vw solid #999999;
+    }
+
+
+
+    section#boost-your-branding h2::after{
+
+        bottom: -0.16vw;
+        width: 0.26vw;
+        height: 0.26vw;
+    }
+
+
+
+
+
+    /*-----------------------| Section "better-engadgement" |------------------------*/
+
+    section#better-engadgement{
+
+        box-shadow: 0 0 2.08vw #3697eb;
+        border-top: 0.05vw solid #3697eb;
+    }
+
+
+
+
+
+
+
+    section#better-engadgement .left-side ul{
+
+        right: 23.44vw;
+        width: 4.17vw;
+
+    }
+
+
+
+
+    section#better-engadgement .left-side ul li{
+
+        width: 4.17vw;
+        height: 4.17vw;
+    }
+
+
+
+    section#better-engadgement .left-side ul li+li{
+
+        margin-top: 0.78vw;
+    }
+
+
+
+
+
+    section#better-engadgement .left-side img.smartphone{
+
+        right: 7.81vw;
+        height: 28.12vw;
+    }
+
+
+    section#better-engadgement .left-side img.screen{
+
+        right: 7.81vw;
+        height: 28.12vw;
+    }
+
+
+
+
+
+    section#better-engadgement .right-side .first-line/*section#better-engadgement .right-side::before*/{
+
+        width: 0.05vw;
+    }
+
+
+
+
+
+
+    /*-----------------------| Section "Performance Metrics" |------------------------*/
+
+
+    section#performance-metrics h2.number{
+
+        border: 0.26vw solid #3697eb;
+    }
+
+
+
+    section#performance-metrics h2.number::after{
+
+        border: 0.1vw solid #f9f9f9;
+
+    }
+
+
+
+
+
+    /*-----------------------| Section "Unlimited Loyalty Channels" |------------------------*/
+
+
+
+
+
+
+    section#unlimited-loyalty-channels h2.number{
+
+        line-height: 5.47vw;
+    }
+
+
+
+
+
+    section#unlimited-loyalty-channels .right-side .container h3{
+
+        font-size: 1.67vw;
+    }
+
+
+
+
+
+    /*-----------------------| Section "Social Media" |------------------------*/
+
+
+
+
+
+
+    section#social-media h2.number{
+
+        line-height: 5.31vw;
+    }
+
+
+
+
+    /*-----------------------| Section "Link your booking system" |------------------------*/
+
+
+
+
+
+    section#link-your-booking-system h2.number{
+
+        line-height: 5.31vw;
+    }
+
+
+
+    section#link-your-booking-system .right-side .last-line/*section#link-your-booking-system .right-side::before*/{
+
+        width: 0.05vw;
+    }
+
+
+
+    section#link-your-booking-system .right-side .container h3{
+
+        font-size: 1.82vw;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1470px){
+
+    h2.number{
+
+        font-size: 70px;
+        line-height: 90px;
+        height: 110px;
+        width: 110px;
+        margin-left: -55px;
+        border-radius: 55px;
+
+    }
+
+    h2.number::after{
+
+        width: 112px;
+        height: 112px;
+        border-radius: 56px;
+        top: -6px;
+        left: -6px;
+    }
+
+
+    section#unlimited-loyalty-channels h2.number{
+
+        line-height: 78px;
+    }
+
+
+    section#social-media h2.number{
+
+        line-height: 80px;
+    }
+
+
+    section#link-your-booking-system h2.number{
+
+        line-height: 80px;
+    }
+
+
+
+    section.slides .right-side .container{
+
+        left: 120px;
+    }
+
+
+
+    section.slides .right-side .container h3{
+
+        font-size: 34px;
+
+    }
+
+
+
+    section.slides .right-side .container p{
+
+        font-size: 19px;
+    }
+
+
+
+    section#better-engadgement .left-side ul{
+
+        right: 390px;
+        width: 60px;
+    }
+
+    section#better-engadgement .left-side ul li{
+
+        width: 60px;
+        height: 60px;
+    }
+
+
+    section#better-engadgement .left-side img.smartphone{
+
+        right: 120px;
+        height: 480px;
+    }
+
+
+    section#better-engadgement .left-side img.screen{
+
+        right: 120px;
+        height: 480px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1280px){
+
+    h2.number{
+
+        font-size: 70px;
+        line-height: 80px;
+        height: 100px;
+        width: 100px;
+        margin-left: -50px;
+        border-radius: 50px;
+
+    }
+
+    h2.number::after{
+
+        width: 102px;
+        height: 102px;
+        border-radius: 51px;
+        top: -6px;
+        left: -6px;
+    }
+
+
+
+    section#unlimited-loyalty-channels h2.number{
+
+        line-height: 71px;
+    }
+
+
+    section#social-media h2.number{
+
+        line-height: 73px;
+    }
+
+
+    section#link-your-booking-system h2.number{
+
+        line-height: 73px;
+    }
+
+
+    section.slides .right-side .container{
+
+        left: 100px;
+    }
+
+
+
+    section.slides .right-side .container h3{
+
+        font-size: 30px;
+    }
+
+
+
+    section#link-your-booking-system .right-side .container h3,
+    section#unlimited-loyalty-channels .right-side .container h3{
+
+        font-size: 25px;
+    }
+
+
+    section.slides .right-side .container p{
+
+        font-size: 17px;
+    }
+
+
+
+    section#better-engadgement .left-side ul{
+
+        right: 330px;
+        width: 50px;
+    }
+
+    section#better-engadgement .left-side ul li{
+
+        width: 50px;
+        height: 50px;
+    }
+
+
+    section#better-engadgement .left-side img.smartphone{
+
+        right: 100px;
+        height: 410px;
+    }
+
+
+    section#better-engadgement .left-side img.screen{
+
+        right: 100px;
+        height: 410px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1020px){
+
+
+    section#main{
+
+        height: auto;
+    }
+
+
+
+    section#main .container{
+
+        margin-top: 100px;
+        margin-bottom: 20px;
+        transform: translate(0, 0);
+    }
+
+
+
+
+    section#main .container .left-side {
+
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+    }
+
+
+
+    section#main .container .left-side img {
+
+        right: auto;
+        height: 438px;
+        top: auto;
+        position: relative;
+        transform: translateY(0);
+    }
+
+
+
+    section#main .container .right-side{
+
+        border-left: none;
+        padding-left: 0;
+        padding-top: 0;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    section#main h1{
+
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+
+    section#main h2{
+
+        font-size: 45px;
+    }
+
+
+
+    section#main .right-side a{
+
+        width: 250px;
+        line-height: 3em;
+        font-size: 15px;
+        border-radius: 1.5em;
+        padding-left: 1.4em;
+        margin-top: 2.5em;
+        box-shadow: 0 0 8px black;
+        text-align: left;
+    }
+
+    section#main .right-side a+br{
+
+        display: none;
+    }
+
+
+    section#main .right-side a+br+a{
+
+        margin-left: 20px;
+    }
+
+
+    section#main .right-side a img{
+
+        height: 25px;
+        width: auto;
+        padding-right: 1em;
+        position: relative;
+        top: 6px;
+    }
+
+
+    section#main p.bottom-text{
+
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+
+    section#main a.get-in-touch{
+
+        line-height: 2.7em;
+        font-size: 18px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 140px;
+    }
+
+
+
+
+
+
+    h2.number{
+
+        font-size: 50px;
+        line-height: 60px;
+        height: 76px;
+        width: 76px;
+        margin-left: -38px;
+        border-radius: 38px;
+
+    }
+
+    h2.number::after{
+
+        width: 78px;
+        height: 78px;
+        border-radius: 39px;
+        top: -6px;
+        left: -6px;
+    }
+
+
+    section#boost-your-branding h2 {
+        font-size: 2.5vw;
+    }
+
+
+    section#boost-your-branding p.bottom-text {
+
+        font-size: 2.2vw;
+    }
+
+
+    section#unlimited-loyalty-channels h2.number{
+
+        line-height: 55px;
+    }
+
+
+    section#social-media h2.number{
+
+        line-height: 55px;
+    }
+
+
+    section#link-your-booking-system h2.number{
+
+        line-height: 55px;
+    }
+
+
+    section.slides .right-side .container{
+
+        left: 80px;
+    }
+
+
+
+    section.slides .right-side .container h3{
+
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+
+    section#link-your-booking-system .right-side .container h3,
+    section#unlimited-loyalty-channels .right-side .container h3{
+
+        font-size: 20px;
+    }
+
+
+    section.slides .right-side .container p{
+
+        font-size: 15px;
+    }
+
+
+
+    section#better-engadgement .left-side ul{
+
+        right: 280px;
+        width: 35px;
+    }
+
+    section#better-engadgement .left-side ul li{
+
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+    section#better-engadgement .left-side img.smartphone{
+
+        right: 80px;
+        height: 360px;
+    }
+
+
+    section#better-engadgement .left-side img.screen{
+
+        right: 80px;
+        height: 360px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 719px){
+
+    section#main .container .left-side img {
+
+        height: 288px;
+    }
+
+
+
+    section#main h1{
+
+        font-size: 20px;
+    }
+
+
+    section#main h2{
+
+        font-size: 35px;
+    }
+
+
+
+    section#main .right-side a{
+
+        margin-top: 2em;
+    }
+
+
+
+    section#main .right-side a+br{
+
+        display: inline-block;
+    }
+
+
+    section#main .right-side a+br+a{
+
+        margin-left: 0;
+    }
+
+    section#main p.bottom-text{
+
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+
+
+
+    h2.number{
+
+        left: 14vw;
+        user-select: none;
+    }
+
+    section.slides .left-side{
+
+        display: none;
+    }
+
+    section.slides .right-side{
+
+        margin-left: 14vw;
+        padding-right: 12vw;
+    }
+
+    section.slides .right-side .container{
+
+        left: 12vw;
+        width: 68vw;
+    }
+
+
+    section.slides .right-side .container h3{
+
+        font-size: 5vw;
+    }
+
+    section#link-your-booking-system .right-side .container h3,
+    section#unlimited-loyalty-channels .right-side .container h3{
+
+        font-size: 4.5vw;
+    }
+
+    section.slides .right-side .container p{
+
+        font-size: 3.5vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 640px){
+
+
+    section#main p.bottom-text{
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    section#main p.bottom-text br:first-of-type{
+
+        display: none;
+    }
+
+
+    section#boost-your-branding{
+
+        position: relative;
+    }
+
+    section#boost-your-branding h2{
+
+        width: 100%;
+        border-bottom: none;
+        text-align: center;
+        font-size: 6vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    section#boost-your-branding.hidden-content h2{
+
+        right: 0;
+        color: rgba(255, 94, 92, 0);
+    }
+
+    section#boost-your-branding h2::after{
+
+        bottom: 0;
+        left: 50%;
+        width: 40vw;
+        height: 1px;
+        border-radius: 0;
+        background-color: #999999;
+        margin-left: -20vw;
+    }
+
+    section#boost-your-branding p.bottom-text{
+
+        font-size: 14px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    section#boost-your-branding p.bottom-text br{
+
+        display: none;
+    }
+
+
+    section#better-engadgement{
+
+        margin-top: 0;
+        box-shadow: none;
+        border-top: none;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 580px){
+
+
+    header {
+        border-left: none;
+    }
+
+
+    section#main .container .left-side img {
+
+        height: 224px;
+    }
+
+
+
+    section#main .right-side h2{
+
+        font-size: 23px;
+    }
+
+    section#main .right-side a{
+
+        width: 200px;
+        line-height: 2.4em;
+        font-size: 14px;
+        border-radius: 1.2em;
+        padding-left: 0.9em;
+        margin-top: 2em;
+        box-shadow: 0 0 8px black;
+        text-align: left;
+    }
+
+
+    section#main .right-side a img {
+        height: 23px;
+        top: 5px;
+        padding-right: 0.5em;
+    }
+
+
+    section#main p.bottom-text{
+
+        padding-left: 10.7vw;
+        padding-right: 10.7vw;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 490px){
+
+
+    section.slides h2.number{
+
+        font-size: 35px;
+        line-height: 43px;
+        height: 60px;
+        width: 60px;
+        margin-left: -30px;
+        border-radius: 30px;
+    }
+
+
+    h2.number::after {
+        width: 62px;
+        height: 62px;
+        border-radius: 31px;
+        top: -6px;
+        left: -6px;
+    }
+
+    section#unlimited-loyalty-channels h2.number{
+
+        line-height: 41px;
+    }
+
+
+    section#social-media h2.number{
+
+        line-height: 41px;
+    }
+
+
+    section#link-your-booking-system h2.number{
+
+        line-height: 41px;
+    }
+
+
+
+    section.slides .right-side .container h3{
+
+        padding-left: 14px;
+    }
+
+
+    section.slides .right-side .container p{
+
+        font-size: 14px;
+        padding-left: 14px;
+        padding-right: 16px;
+        font-weight: 400;
+    }
+
+    section.slides .right-side .container p br{
+
+        display: none;
+    }
+}

@@ -1,0 +1,745 @@
+/*-----------------------| general |------------------------*/
+
+h2.number{
+
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    text-align: center;
+    font-size: 90px;
+    line-height: 115px;
+    font-weight: 300;
+    color: white;
+    background-color: #3697eb;
+    display: inline-block;
+    height: 136px;
+    width: 136px;
+    margin-left: -68px;
+    transform: translateY(-50%);/*margin-top: -68px;*/
+    z-index: 3;
+    border-radius: 68px;
+    border: 5px solid #f9f9f9;
+
+    user-select: none;
+}
+
+h2.number::after{
+
+    content: '';
+    display: inline-block;
+    width: 138px;
+    height: 138px;
+    border-radius: 69px;
+    border: 1px solid #3697eb;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    box-sizing: border-box;
+}
+
+
+
+
+section.slides{
+    overflow-y: hidden;
+}
+
+
+section.slides .right-side{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    position: relative;
+}
+
+
+
+
+
+section#performance-metrics .right-side::before,
+section#unlimited-loyalty-channels .right-side::before,
+section#social-media .right-side::before{
+
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+section.slides .right-side .container{
+
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50vh;
+    left: 150px;
+}
+
+
+
+
+section.slides .right-side .container h3{
+
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.5em;
+
+}
+
+
+section.slides .right-side .container p{
+
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+}
+
+/*
+section#main,
+section.slides,
+footer{
+
+    border-left: 4px solid #3697eb;
+}
+
+*/
+
+
+/*-----------------------| Section "Main" |------------------------*/
+
+section#main{
+    z-index: 2;
+    box-shadow: 0 0 20px black;
+}
+
+
+section#main .container{
+
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-top: 15.35vh;
+}
+
+section#main .container > div{
+    display: inline-block;
+    width: 50%;
+    height: 54.04vh;
+    float: left;
+}
+
+
+section#main .container .left-side{
+    position: relative;
+}
+
+section#main .container .left-side img{
+    position: absolute;
+    right: 5vh;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 45vh;
+    width: auto;
+}
+
+
+section#main .container .right-side{
+
+    border-left: 1px solid #cccccc;
+    padding-left: 5.05vh;
+    padding-top: 7.07vh;
+}
+
+
+section#main h1{
+
+    font-family: inherit;
+    font-size: 2.22vh;
+    font-weight: 500;
+    color: #333333;
+    line-height: 1.25em;
+}
+
+
+section#main h2{
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: inherit;
+    font-size: 4.55vh;
+    font-weight: 300;
+    color: #3c9aec;
+    line-height: 1.25em;
+}
+
+section#main h2 .magenta{
+
+    color: #ff5e5b;
+    font-weight: 500;
+}
+
+
+
+section#main .right-side a{
+
+    width: 27.27vh;
+    line-height: 5.35vh;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.72vh;
+    border-radius: 0.81vh;
+    padding-left: 2.02vh;
+    margin-top: 3.53vh;
+    box-shadow: 0 0 0.81vh black;
+
+    transition: box-shadow 200ms;
+}
+
+
+section#main .right-side a:hover{
+
+    box-shadow: 0 0 1.82vh #3697eb, #3697eb 0 0 0.91vh inset;
+}
+
+
+
+section#main .right-side a:active{
+
+    box-shadow: none;
+}
+
+
+
+section#main .right-side a img{
+
+    height: 2.63vh;
+    width: auto;
+    padding-right: 1.01vh;
+    position: relative;
+    top: 0.51vh;
+}
+
+
+
+
+
+section#main p.bottom-text{
+
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 4em;
+    font-size: 1.82vh;
+}
+
+
+section#main a.get-in-touch{
+
+    background-color: #3697eb;
+    color: white;
+    line-height: 5.05vh;
+    font-size: 1.82vh;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: 0 0 0.4vh rgba(0, 0, 0, 0.5);
+
+    transition: text-shadow 150ms, box-shadow 150ms;
+
+    user-select: none;
+}
+
+
+section#main a.get-in-touch:hover{
+
+    text-shadow: 0 0 0.2vh white;
+    box-shadow: 0 0 0.81vh #3697eb;
+
+}
+
+section#main a.get-in-touch:active{
+
+    text-shadow: none;
+    box-shadow: none;
+}
+
+/*-----------------------| Section "Boost your branding" |------------------------*/
+
+
+section#boost-your-branding{
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/home/boost-your-branding-background.png");
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    z-index: 1;
+}
+
+
+section#boost-your-branding::after{
+
+    content: '';
+    background-color: black;
+    opacity: 0.7;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    transition: opacity 1000ms;
+}
+
+section#boost-your-branding.hidden-content::after{
+
+    opacity: 0;
+}
+
+
+section#boost-your-branding h2{
+
+    color: rgba(255, 94, 92, 1);
+    font-weight: 300;
+    font-size: 3.84vh;
+    line-height: 1.5em;
+    text-align: left;
+    padding: 1em;
+    padding-left: 1.5em;
+    border-bottom: 1px solid #999999;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    transition: right 300ms ease, color 400ms ease 300ms;
+}
+
+
+
+section#boost-your-branding h2::after{
+
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #999999;
+    display: inline-block;
+    content: '';
+}
+
+
+section#boost-your-branding.hidden-content h2{
+
+    right: -50%;
+    color: rgba(255, 94, 92, 0);
+}
+
+
+
+section#boost-your-branding p.bottom-text{
+
+    color: white;
+    font-weight: 300;
+    font-size: 2.53vh;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+    text-align: center;
+    width: 100%;
+
+    transition: opacity 500ms ease 400ms;
+}
+
+section#boost-your-branding.hidden-content p.bottom-text{
+
+    opacity: 0;
+}
+
+section#boost-your-branding p.bottom-text .magenta{
+
+    color: #ff5e5b;
+    font-weight: 500;
+
+}
+
+
+/*-----------------------| Section "better-engadgement" |------------------------*/
+
+section#better-engadgement{
+
+
+    background-color: inherit;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+    margin-top: 130vh;
+    box-shadow: 0 0 40px #3697eb;
+    border-top: 1px solid #3697eb;
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+section#better-engadgement .left-side{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    transition: opacity 300ms;
+}
+
+
+
+section#better-engadgement .left-side.fixed{
+
+    position: fixed;
+}
+
+section#better-engadgement .left-side.hidden{
+
+    opacity: 0;
+}
+
+
+section#better-engadgement .left-side ul{
+
+    display: inline-block;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50vh;
+    right: 450px;
+    width: 80px;
+    opacity: 0;
+    transition: opacity 400ms;
+
+}
+
+
+section#better-engadgement .left-side ul.show{
+
+    opacity: 1;
+}
+
+section#better-engadgement .left-side ul li{
+
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #3697eb;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+section#better-engadgement .left-side ul li+li{
+
+    margin-top: 15px;
+}
+
+
+section#better-engadgement .left-side ul li img{
+
+    width: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: brightness(100);
+}
+
+section#better-engadgement .left-side img.smartphone{
+
+    position: absolute;
+    transform: translateY(-50%);
+    right: 150px;
+    top: 50%;
+    height: 540px;
+    width: auto;
+}
+
+
+section#better-engadgement .left-side img.screen{
+
+    position: absolute;
+    transform: translateY(-50%);
+    right: 150px;
+    top: 50%;
+    height: 540px;
+    width: auto;
+    opacity: 0;
+}
+
+
+section#better-engadgement .left-side img.screen.show-screen{
+
+    opacity: 1;
+}
+
+
+section#better-engadgement .left-side ul.social-media li{
+
+    background-color: #f9f9f9;
+}
+
+
+section#better-engadgement .left-side ul.social-media li img{
+
+    filter: brightness(0);
+    opacity: 0.7;
+}
+
+
+section#better-engadgement .right-side .first-line/*section#better-engadgement .right-side::before*/{
+
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 50vh;
+    background-color: #3697eb;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+section#better-engadgement .right-side .container{
+
+    color: #333333;
+}
+
+
+
+
+
+section#better-engadgement .right-side .container p{
+
+    color: #777777;
+}
+
+
+
+
+
+
+
+
+/*-----------------------| Section "Performance Metrics" |------------------------*/
+
+section#performance-metrics{
+
+
+    background-color: #3697eb;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+}
+section#performance-metrics h2.number{
+
+    background-color: #f9f9f9;
+    border: 5px solid #3697eb;
+    color: #3697eb;
+}
+
+
+
+section#performance-metrics h2.number::after{
+
+    border: 2px solid #f9f9f9;
+
+}
+
+
+
+section#performance-metrics .left-side{
+    /**/
+}
+
+
+
+
+
+section#performance-metrics .right-side::before{
+
+    background-color: white;
+}
+
+
+
+section#performance-metrics .right-side .container{
+
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------| Section "Unlimited Loyalty Channels" |------------------------*/
+
+
+
+section#unlimited-loyalty-channels{
+    background-color: inherit;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+}
+
+
+section#unlimited-loyalty-channels h2.number{
+
+    line-height: 105px;
+}
+
+
+section#unlimited-loyalty-channels .right-side::before{
+
+    background-color: #3697eb;
+}
+
+
+section#unlimited-loyalty-channels .right-side .container h3{
+
+    color: #3697eb;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+section#unlimited-loyalty-channels .right-side .container p{
+
+    color: #3697eb;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------| Section "Social Media" |------------------------*/
+
+
+
+section#social-media{
+    background-color: #393939;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+}
+
+
+
+section#social-media h2.number{
+
+    line-height: 102px;
+    border-color: #393939;
+}
+
+
+
+section#social-media .right-side::before{
+
+    background-color: #3697eb;
+}
+
+
+
+section#social-media .right-side .container{
+
+    color: white;
+}
+
+
+section#social-media .right-side .container h3{
+
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------| Section "Link your booking system" |------------------------*/
+
+
+
+section#link-your-booking-system{
+    background-color: inherit;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+}
+
+
+
+section#link-your-booking-system h2.number{
+
+    line-height: 102px;
+}
+
+
+
+section#link-your-booking-system .right-side .last-line/*section#link-your-booking-system .right-side::before*/{
+
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 50vh;
+    background-color: #3697eb;
+    position: absolute;
+    top: 0;
+}
+
+
+
+section#link-your-booking-system .right-side .container h3{
+
+    font-size: 35px;
+}

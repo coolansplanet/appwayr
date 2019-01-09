@@ -1,0 +1,907 @@
+@media only screen and (min-width: 1921px){
+
+
+
+    section#main h1{
+
+        text-shadow: 0 0 0.1vw black;
+    }
+
+
+
+
+    section#features-of-the-app h2{
+
+        border-right: 0.05vw solid #cccccc;
+    }
+
+
+
+
+    section#features-of-the-app ul{
+
+        width: 67vw;
+    }
+
+
+    section#features-of-the-app ul li{
+
+        width: 20.21vw;
+    }
+
+
+
+
+
+
+
+    section#features-of-the-app ul li h4::after{
+
+        height: 0.05vw;
+    }
+
+
+    section#features-of-the-app ul li p{
+
+        font-size: 0.83vw;
+    }
+
+
+
+    section#benefits ul{
+        max-width: 72.92vw;
+    }
+
+
+    section#benefits ul li{
+
+        width: 20.83vw;
+        min-height: 10.41vw;
+        margin-top: 2.6vw;
+        padding-bottom: 2.6vw;
+        margin-left: 1.3vw;
+        margin-right: 1.3vw;
+    }
+
+
+    section#benefits ul li h3{
+
+        font-size: 1.51vw;
+    }
+
+
+    section#benefits ul li h3::after{
+
+        width: 10.42vw;
+        height: 0.05vw;
+        margin-left: -5.21vw;
+    }
+
+
+    section#benefits ul li p{
+
+        font-size: 0.83vw;
+    }
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1420px){
+
+
+/*------------------------| Last section before the footer |--------------------------*/
+
+
+    section#benefits ul li{
+
+        width: 280px;
+        min-height: 200px;
+        margin-top: 35px;
+        padding-bottom: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    section#benefits ul li h3{
+
+        font-size: 18px;
+    }
+
+
+    section#benefits ul li h3::after{
+
+        width: 200px;
+        margin-left: -100px;
+    }
+
+
+    section#benefits ul li p{
+
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1380px){
+
+/*------------------------| "Features of the app" section |--------------------------*/
+
+
+
+    section#features-of-the-app ul{
+        width: 100%;
+        left: 0;
+        transform: translate(0, -50%);
+    }
+
+
+    section#features-of-the-app ul li{
+
+        width: 280px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+
+    section#features-of-the-app ul li h4{
+
+        font-size: 22px;
+
+    }
+
+
+
+    section#features-of-the-app ul li p{
+
+        font-size: 14px;
+    }
+
+    section#features-of-the-app ul li p br{
+
+        display: none;
+    }
+
+
+
+
+/*------------------------| "What makes your salon special" section |--------------------------*/
+
+
+    section#what-makes-your-salon-special .container{
+
+        position: relative;
+        top: 46vh;
+        transform: translateY(-50%);
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    section#what-makes-your-salon-special h2{
+
+        font-size: 40px;
+    }
+
+
+
+    section#what-makes-your-salon-special ul.short-explanation{
+
+        font-size: 20px;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li{
+
+        width: 280px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li+li{
+
+        margin-left: 20px;
+    }
+
+
+
+    section#what-makes-your-salon-special ul.numbers li h3{
+
+        font-size: 25px;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li h3 .highlighted{
+
+        font-size: 53px;
+    }
+
+
+
+    section#what-makes-your-salon-special ul.numbers li p{
+
+        min-height: 21em;
+        padding-top: 2.5em;
+        padding-bottom: 3em;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1020px){
+
+/*--------------------------| General |---------------------------*/
+
+    section{
+
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*------------------------| Main section |--------------------------*/
+
+    section#main{
+        position: relative;
+    }
+
+
+    section#main .container{
+
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        transform: translateY(-50%);
+        top: 50vh;
+    }
+
+
+    section#main h1{
+        font-size: 6.1vw;
+        margin-top: 150px;
+    }
+
+
+    section#main h2{
+
+        font-size: 4.8vw;
+    }
+
+    section#main p{
+
+        font-size: 2.7vw;
+        margin-bottom: 150px;
+    }
+
+
+
+
+    /*------------------------| "Features of the app" section |--------------------------*/
+
+
+    section#features-of-the-app{
+
+        box-shadow: none;
+        margin-top: 0;
+    }
+
+
+
+    section#features-of-the-app h2{
+
+        font-size: 5vw;
+        display: inline-block;
+        line-height: 10vw;
+        height: 10vw;
+    }
+
+
+
+    section#features-of-the-app h3{
+
+        font-size: 2vw;
+        height: 10vw;
+        top: 1.21vw;
+    }
+
+    section#features-of-the-app ul{
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        padding-bottom: 100px;
+    }
+
+
+    section#features-of-the-app ul li{
+
+        width: 40%;
+        margin-top: 45px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+
+
+    section#features-of-the-app ul li+br{
+
+        display: none;
+    }
+
+
+    section#features-of-the-app ul li h4{
+
+        font-size: 22px;
+    }
+
+
+
+    section#features-of-the-app ul li h4::after{
+        width: 120px;
+    }
+
+
+    section#features-of-the-app ul li p{
+
+        font-size: 14px;
+    }
+
+
+
+    section#features-of-the-app ul li:nth-of-type(odd) h4, section#features-of-the-app ul li:nth-of-type(odd) p{
+
+        text-align: right;
+    }
+
+
+    section#features-of-the-app ul li:nth-of-type(even) h4, section#features-of-the-app ul li:nth-of-type(even) p{
+
+        text-align: left;
+    }
+
+
+    section#features-of-the-app ul li:nth-of-type(odd) h4::after{
+
+        left: auto;
+        right: 0;
+        transform: translateX(0);
+        /*background-color: #ff5e5b;*/
+    }
+
+
+    section#features-of-the-app ul li:nth-of-type(even) h4::after{
+
+        left: 0;
+        transform: translateX(0);
+        /*background-color: #ffcc00; #aad400*/
+    }
+
+
+    /*------------------------| "What makes your salon special" section |--------------------------*/
+
+
+
+    section#what-makes-your-salon-special::before{
+
+        background-color: rgba(54, 151, 235, 0.85);
+    }
+
+
+    section#what-makes-your-salon-special .container{
+
+        top: 0;
+        transform: translateY(0);
+    }
+
+
+
+    section#what-makes-your-salon-special h2{
+
+        font-size: 5.8vw;
+    }
+
+
+
+
+    section#what-makes-your-salon-special h2 .highlighted{
+
+        color: white;
+        text-shadow: 0 0 8px white;
+    }
+
+
+    section#what-makes-your-salon-special ul.short-explanation{
+
+        font-size: 24px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+
+
+    section#what-makes-your-salon-special ul.numbers{
+
+        margin-bottom: 70px;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li{
+
+        width: 80%;
+        margin-bottom: 40px;
+        padding-top: 20px;
+    }
+
+    section#what-makes-your-salon-special ul.numbers li+li{
+
+        margin-left: 0;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li h3{
+
+        font-size: 35px;
+        font-weight: 300;
+        color: white;
+        text-shadow: 0 0 8px #3697eb;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li h3 .highlighted{
+
+        font-size: 35px;
+        width: auto;
+    }
+
+
+
+    section#what-makes-your-salon-special ul.numbers li p{
+
+        min-height: 0;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+    }
+
+
+    /*------------------------| "Personalized Marketing Tools" section |--------------------------*/
+
+
+
+
+    section#personalized-marketing-tools h2{
+
+        font-size: 5vw;
+    }
+
+
+
+
+
+
+    section#personalized-marketing-tools .wrapper::after{
+        width: 78vw;
+        height: 61vw;
+        top: 1vw;
+        border-radius: 4.5vw;
+        box-shadow: 0 0.5vw 8vw rgba(0, 0, 0, 0.8);
+    }
+
+    section#personalized-marketing-tools img{
+
+        width: 80vw;
+    }
+
+    section#personalized-marketing-tools p{
+
+        font-size: 3vw;
+        margin-bottom: 7vw;
+    }
+
+
+
+
+
+/*------------------------| Last section before the footer |--------------------------*/
+
+
+
+
+    section#benefits ul{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 70px;
+        max-width: none;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
+
+    section#benefits ul li{
+
+        width: 80%;
+        min-height: 0;
+        padding-bottom: 43px;
+    }
+
+
+    section#benefits ul li h3{
+
+        font-size: 25px;
+        line-height: 1.8em;
+    }
+
+
+    section#benefits ul li h3::after{
+
+        width: 200px;
+
+    }
+
+
+
+    section#benefits ul li h3 br{
+
+        display: none;
+    }
+
+
+    section#benefits ul li p{
+
+        font-size: 16px;
+        line-height: 1.8em;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 719px){
+
+
+    /*------------------------| Main section |--------------------------*/
+
+
+    section#main h2 {
+
+        font-size: 4.6vw;
+    }
+
+
+    section#main h2 .highlighted {
+
+        font-weight: 600;
+    }
+
+
+    section#main p{
+
+        font-size: 3vw;
+        font-weight: 400;
+        color: #333333;
+    }
+
+
+    /*------------------------| "Features of the app" section |--------------------------*/
+
+
+
+    section#features-of-the-app h2{
+
+        font-size: 7.5vw;
+        line-height: 1.5em;
+        height: 1.5em;
+        padding-right: 0;
+        width: auto;
+        width: 70%;
+        border-right: none;
+    }
+
+
+
+    section#features-of-the-app h3{
+
+        font-size: 3vw;
+        height: auto;
+        top: auto;
+        display: inline-block;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 0;
+        width: 64%;
+        margin-bottom: 1em;
+    }
+
+    section#features-of-the-app h3 br{
+
+        display: none;
+    }
+
+
+    section#features-of-the-app ul li{
+
+        width: 83%;
+        margin-top: 45px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    section#features-of-the-app ul li h4{
+
+        font-size: 22px;
+    }
+
+
+
+    section#features-of-the-app ul li h4::after{
+        width: 150px;
+    }
+
+
+    section#features-of-the-app ul li p{
+
+        font-size: 16px;
+    }
+
+
+
+    section#features-of-the-app ul li:nth-of-type(odd) h4, section#features-of-the-app ul li:nth-of-type(odd) p{
+
+        text-align: center;
+    }
+
+
+    section#features-of-the-app ul li:nth-of-type(even) h4, section#features-of-the-app ul li:nth-of-type(even) p{
+
+        text-align: center;
+    }
+
+
+    section#features-of-the-app ul li:nth-of-type(odd) h4::after{
+
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        /*background-color: #ff5e5b;*/
+    }
+
+
+    section#features-of-the-app ul li:nth-of-type(even) h4::after{
+
+        left: 50%;
+        transform: translateX(-50%);
+        /*background-color: #ffcc00; #aad400*/
+    }
+
+
+    /*------------------------| "What makes your salon special" section |--------------------------*/
+    section#what-makes-your-salon-special ul.numbers li p{
+
+        min-height: 0;
+        padding-top: 25px;
+        padding-bottom: 29px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 580px){
+
+    /*------------------------| Main section |--------------------------*/
+
+
+
+    section#main h1{
+        font-size: 7vw;
+    }
+
+
+    section#main h2{
+
+        font-weight: 600;
+    }
+
+    section#main h2 .highlighted{
+
+        font-weight: 700;
+    }
+
+
+    section#main p{
+
+        font-size: 4vw;
+        margin-bottom: 150px;
+        font-weight: 500;
+    }
+
+    section#main p span.highlighted{
+
+        width: 100%;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+
+
+    /*------------------------| "Features of the app" section |--------------------------*/
+
+
+    section#features-of-the-app h2{
+
+        font-size: 9vw;
+        width: 100%;
+    }
+
+
+    section#features-of-the-app h3{
+
+        font-size: 4.6vw;
+        width: 100%;
+    }
+
+
+    section#features-of-the-app ul li h4{
+
+        font-size: 20px;
+    }
+
+
+
+    section#features-of-the-app ul li h4::after{
+        width: 140px;
+    }
+
+
+    section#features-of-the-app ul li p{
+
+        font-size: 14px;
+    }
+
+/*------------------------| "What makes your salon special" section |--------------------------*/
+
+    section#what-makes-your-salon-special h2{
+
+        font-weight: 600;
+    }
+
+
+
+    section#what-makes-your-salon-special ul.short-explanation{
+
+        font-size: 16px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li{
+
+        margin-bottom: 30px;
+    }
+
+
+
+    section#what-makes-your-salon-special ul.numbers li h3{
+
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li h3 .highlighted{
+
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+    section#what-makes-your-salon-special ul.numbers li p{
+
+        font-size: 14px;
+    }
+
+
+    /*------------------------| "Personalized Marketing Tools" section |--------------------------*/
+
+
+
+
+    section#personalized-marketing-tools h2{
+
+        font-size: 6vw;
+    }
+
+
+
+    section#personalized-marketing-tools p{
+
+        font-size: 4vw;
+        margin-bottom: 7vw;
+    }
+
+    section#personalized-marketing-tools p span.highlighted{
+
+        display: inline-block;
+        width: 100%;
+    }
+
+
+
+
+
+    /*------------------------| Last section before the footer |--------------------------*/
+
+
+        section#benefits ul li{
+
+            min-height: 0;
+            margin-top: 35px;
+            padding-bottom: 35px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+
+        section#benefits ul li h3{
+
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+
+        section#benefits ul li p{
+
+            font-size: 14px;
+        }
+
+}
